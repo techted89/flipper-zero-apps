@@ -1,0 +1,11 @@
+App(
+    appid="example_hello",
+    name="Example Hello",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="hello_app",
+    stack_size=2 * 1024,
+    fap_category="Misc",
+    fap_author="Your Name",
+    fap_version="1.0",
+    fap_description="Example Flipper Zero app",
+)
